@@ -1,0 +1,75 @@
+/* import for fonts through GoogleFonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap'); 
+
+
+body{
+     background-color: aqua;
+     color: chocolate;
+     font-family: "Montserrat", sans-serif;
+     /* setting background image */
+     background-image: url("../images/spider.jpg");
+     /* set location of image */
+     background-position: center;
+     /* Prevents Image Tiling */
+     background-repeat: no-repeat;
+     /* Sets Size */
+     background-size: 100%;
+    }
+main
+{
+    max-width: 750px;
+    margin: 0 auto;
+
+
+}
+    
+    /* Order of operations is an important factor when determining which styles apply if there a conflict, most recent is taken and used*/
+    p
+    {
+        color: rgb(220, 20, 60);
+        margin: 40px;
+    }
+
+    h1,h2
+    {
+        color: rgba(235, 0, 235, 0.918);
+        /* Font for individual headings */
+
+        font-weight: 700;
+        text-align: center;
+    }
+    /* Targets anything with the class 'highlighted' */
+   
+    p.highlighted
+    {
+        background-color: chartreuse;
+        padding: 30px;
+        border: 5px solid red;
+        border-bottom: 10px solid white;
+        border-radius:  30px;
+    }
+
+    
+
+    /* ID targeting */
+    #thirdParagraph
+    {
+        background-color: black;
+        color: white;
+
+    }
+    
+    .box
+    {
+        background-color: blue;
+        height: 40px;
+        margin-bottom: 40px;
+        /* Use % to create a value proportional to the container it's in */
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    section
+    {
+        background-color: #603ac2;
+    }
